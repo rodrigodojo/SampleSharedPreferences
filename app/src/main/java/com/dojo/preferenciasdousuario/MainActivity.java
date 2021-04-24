@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                SharedPreferences preferences = getSharedPreferences(ARQUIVO_PREFERENCIA,);
+                SharedPreferences preferences = getSharedPreferences(ARQUIVO_PREFERENCIA,0);
             }
         });
 
